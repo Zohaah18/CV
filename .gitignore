@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Large datasets
+data/
+**/data/
+
+# Generated outputs
+**/output/
+output/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Medical images / datasets
+*.jpg
+*.jpeg
+*.png
+*.dcm
+*.nii
+*.nii.gz
+
+# OS files
+.DS_Store
+Thumbs.db
