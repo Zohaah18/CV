@@ -1,0 +1,4 @@
+model,device,load_time_s,params_millions,size_fp32_mb,weights_file_mb,n_frames,n_timed_runs,latency_ms_mean,latency_ms_median,latency_ms_std,latency_ms_p95,latency_ms_min,fps,total_detections,avg_detections_per_frame,mean_confidence,small_object_detections,small_object_mean_conf
+YOLOv3,cpu,6.13,103.75,415.0,207.9,6,18,1956.8,2015.3,206.8,2150.8,1478.5,0.51,30,5,0.75,1,0.746
+SSD,cpu,3.78,35.64,142.6,142.6,6,18,720.8,718.5,50.2,816.2,656.1,1.39,16,2.67,0.772,0,
+RetinaNet,cpu,1.14,34.01,136.1,136.6,6,18,4121.3,3958.7,425.7,4899.6,3659.8,0.24,31,5.17,0.684,1,0.848

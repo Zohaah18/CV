@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "device": "cpu",
+    "n_frames": 6,
+    "conf_threshold": 0.4,
+    "source": "images"
+  },
+  "results": [
+    {
+      "model": "YOLOv3",
+      "device": "cpu",
+      "load_time_s": 6.13,
+      "params_millions": 103.75,
+      "size_fp32_mb": 415.0,
+      "weights_file_mb": 207.9,
+      "n_frames": 6,
+      "n_timed_runs": 18,
+      "latency_ms_mean": 1956.8,
+      "latency_ms_median": 2015.3,
+      "latency_ms_std": 206.8,
+      "latency_ms_p95": 2150.8,
+      "latency_ms_min": 1478.5,
+      "fps": 0.51,
+      "total_detections": 30,
+      "avg_detections_per_frame": 5,
+      "mean_confidence": 0.75,
+      "small_object_detections": 1,
+      "small_object_mean_conf": 0.746,
+      "confidence_by_group": {
+        "person": {
+          "mean": 0.765,
+          "n": 20
+        },
+        "indoor/household": {
+          "mean": 0.783,
+          "n": 4
+        },
+        "street objects": {
+          "mean": 0.851,
+          "n": 2
+        },
+        "vehicle": {
+          "mean": 0.527,
+          "n": 1
+        },
+        "accessories & sports": {
+          "mean": 0.611,
+          "n": 3
+        }
+      },
+      "confidence_by_class": {
+        "person": {
+          "mean": 0.765,
+          "n": 20
+        },
+        "chair": {
+          "mean": 0.492,
+          "n": 1
+        },
+        "stop sign": {
+          "mean": 0.851,
+          "n": 2
+        },
+        "truck": {
+          "mean": 0.527,
+          "n": 1
+        },
+        "surfboard": {
+          "mean": 0.562,
+          "n": 1
+        },
+        "teddy bear": {
+          "mean": 0.898,
+          "n": 2
+        },
+        "cell phone": {
+          "mean": 0.846,
+          "n": 1
+        },
+        "tennis racket": {
+          "mean": 0.824,
+          "n": 1
+        },
+        "handbag": {
+          "mean": 0.446,
+          "n": 1
+        }
+      }
+    },
+    {
+      "model": "SSD",
+      "device": "cpu",
+      "load_time_s": 3.78,
+      "params_millions": 35.64,
+      "size_fp32_mb": 142.6,
+      "weights_file_mb": 142.6,
+      "n_frames": 6,
+      "n_timed_runs": 18,
+      "latency_ms_mean": 720.8,
+      "latency_ms_median": 718.5,
+      "latency_ms_std": 50.2,
+      "latency_ms_p95": 816.2,
+      "latency_ms_min": 656.1,
+      "fps": 1.39,
+      "total_detections": 16,
+      "avg_detections_per_frame": 2.67,
+      "mean_confidence": 0.772,
+      "small_object_detections": 0,
+      "small_object_mean_conf": null,
+      "confidence_by_group": {
+        "person": {
+          "mean": 0.79,
+          "n": 11
+        },
+        "street objects": {
+          "mean": 1.0,
+          "n": 1
+        },
+        "accessories & sports": {
+          "mean": 0.405,
+          "n": 1
+        },
+        "indoor/household": {
+          "mean": 0.753,
+          "n": 3
+        }
+      },
+      "confidence_by_class": {
+        "person": {
+          "mean": 0.79,
+          "n": 11
+        },
+        "stop sign": {
+          "mean": 1.0,
+          "n": 1
+        },
+        "surfboard": {
+          "mean": 0.405,
+          "n": 1
+        },
+        "teddy bear": {
+          "mean": 0.739,
+          "n": 2
+        },
+        "cell phone": {
+          "mean": 0.78,
+          "n": 1
+        }
+      }
+    },
+    {
+      "model": "RetinaNet",
+      "device": "cpu",
+      "load_time_s": 1.14,
+      "params_millions": 34.01,
+      "size_fp32_mb": 136.1,
+      "weights_file_mb": 136.6,
+      "n_frames": 6,
+      "n_timed_runs": 18,
+      "latency_ms_mean": 4121.3,
+      "latency_ms_median": 3958.7,
+      "latency_ms_std": 425.7,
+      "latency_ms_p95": 4899.6,
+      "latency_ms_min": 3659.8,
+      "fps": 0.24,
+      "total_detections": 31,
+      "avg_detections_per_frame": 5.17,
+      "mean_confidence": 0.684,
+      "small_object_detections": 1,
+      "small_object_mean_conf": 0.848,
+      "confidence_by_group": {
+        "person": {
+          "mean": 0.687,
+          "n": 21
+        },
+        "indoor/household": {
+          "mean": 0.661,
+          "n": 4
+        },
+        "street objects": {
+          "mean": 0.923,
+          "n": 2
+        },
+        "vehicle": {
+          "mean": 0.599,
+          "n": 1
+        },
+        "accessories & sports": {
+          "mean": 0.566,
+          "n": 3
+        }
+      },
+      "confidence_by_class": {
+        "person": {
+          "mean": 0.687,
+          "n": 21
+        },
+        "chair": {
+          "mean": 0.44,
+          "n": 1
+        },
+        "stop sign": {
+          "mean": 0.923,
+          "n": 2
+        },
+        "truck": {
+          "mean": 0.599,
+          "n": 1
+        },
+        "surfboard": {
+          "mean": 0.478,
+          "n": 1
+        },
+        "teddy bear": {
+          "mean": 0.751,
+          "n": 2
+        },
+        "cell phone": {
+          "mean": 0.704,
+          "n": 1
+        },
+        "tennis racket": {
+          "mean": 0.673,
+          "n": 1
+        },
+        "handbag": {
+          "mean": 0.548,
+          "n": 1
+        }
+      }
+    }
+  ]
+}

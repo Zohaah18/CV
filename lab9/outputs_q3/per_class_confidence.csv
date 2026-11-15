@@ -1,0 +1,10 @@
+class,YOLOv3_mean_conf,SSD_mean_conf,RetinaNet_mean_conf,YOLOv3_count,SSD_count,RetinaNet_count
+cell phone,0.846,0.78,0.704,1,1,1
+chair,0.492,,0.44,1,0,1
+handbag,0.446,,0.548,1,0,1
+person,0.765,0.79,0.687,20,11,21
+stop sign,0.851,1.0,0.923,2,1,2
+surfboard,0.562,0.405,0.478,1,1,1
+teddy bear,0.898,0.739,0.751,2,2,2
+tennis racket,0.824,,0.673,1,0,1
+truck,0.527,,0.599,1,0,1
